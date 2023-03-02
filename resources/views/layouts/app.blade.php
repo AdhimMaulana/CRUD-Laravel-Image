@@ -45,7 +45,7 @@
                 <hr>
                 <hr>
                 <li>
-                        <a href="#" class="nav-link px-0 mt-5 align-middle">
+                        <a href="{{ route('logout') }}" class="nav-link px-0 mt-5 align-middle">
                             <a class="fs-5 bi-table ms-1 d-none d-sm-inline text-white text-decoration-none" href="{{ route('logout') }}"
                                        onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">

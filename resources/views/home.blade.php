@@ -9,7 +9,7 @@
 </div>
 <div class="card text-center" style="width: 10rem;">
                 <div class="card-body">
-                    <h5 class="card-text">1</h5>
+                    <h5 class="card-text">{{ $data }}</h5>
                     <h6 class="card-text">Produk</h6>
                 </div>
             </div>
