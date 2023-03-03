@@ -28,3 +28,4 @@ Route::post('/store',[ProdukController::class, 'store']);
 Route::get('/edit/{id}',[ProdukController::class, 'edit']);
 Route::post('/update/{id}',[ProdukController::class, 'update']);
 Route::get('/hapus/{id}',[ProdukController::class, 'destroy']);
+route::post('/logout',[ProdukController::class,'logout'])->name('logout');
